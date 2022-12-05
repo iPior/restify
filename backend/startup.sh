@@ -2,7 +2,7 @@
 
 # create the virtual environment
 # pip install Virtualenv
-pyLocation=$(which python3)
+pyLocation=$(which python)
 virtualenv -p $pyLocation venv
 #activate script for venv
 source venv/bin/activate
